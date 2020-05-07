@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { Vue, Options } from 'vue-class-component'
-import VButton from './modules/components/VButton.vue'
+import VButton from './components/VButton.vue'
 
 class App extends Vue {
   count = 0
