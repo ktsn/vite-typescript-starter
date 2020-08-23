@@ -10,16 +10,20 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component'
+import { defineComponent, ref } from 'vue'
 import VButton from './components/VButton.vue'
 
-class App extends Vue {
-  count = 0
-}
-
-export default Options({
+export default defineComponent({
   components: {
     VButton,
   },
-})(App)
+
+  setup() {
+    const count = ref(0)
+
+    return {
+      count,
+    }
+  },
+})
 </script>

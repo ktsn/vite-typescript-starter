@@ -8,12 +8,10 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component'
+import { defineComponent } from 'vue'
 
-class VButton extends Vue {}
-
-export default Options({
+export default defineComponent({
   name: 'VButton',
   inheritAttrs: false,
-})(VButton)
+})
 </script>

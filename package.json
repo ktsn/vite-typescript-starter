@@ -7,8 +7,7 @@
   },
   "dependencies": {
     "tailwindcss": "^1.7.3",
-    "vue": "^3.0.0-rc.7",
-    "vue-class-component": "^8.0.0-alpha.6"
+    "vue": "^3.0.0-rc.7"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.7",
